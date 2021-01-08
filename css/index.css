@@ -1,0 +1,161 @@
+.principal{
+    width: 100%;
+}
+
+
+/* Bloco Desenvolvedor - Card */
+
+.card-dev{
+    float: left;
+    width: 20%;
+    /* background: rgb(218, 110, 110); */
+    padding: 1%;
+    border: 1px solid;
+    border-radius: 3%;
+}
+
+#img_desenvolvedor{
+    width: 100%;
+    border-radius: 5%;
+}
+
+
+.apresentacao > h3, .apresentacao_detalhes > h3, .redes_sociais > h3{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+}
+
+.apresentacao > p {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 0.5rem 1px;
+    /* padding: 5px; */
+}
+
+.apresentacao > p::before{
+    content: "★";
+}
+
+.apresentacao > p::after{
+    content: "★";
+}
+
+.apresentacao_detalhes > h3::before{
+    content: "💻";
+}
+
+.apresentacao_detalhes > h3::after{
+    content: "💻";
+}
+
+.destaques_programador{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    /* text-align: center; */
+}
+
+.destaques_programador > li {
+    /* padding: 5px; */
+    padding: 0.5rem 1px;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+.redes_sociais > p {
+    padding: 0.5rem 1px;
+    display: inline-block;
+    vertical-align: top;
+}
+.fa-php{
+    color: #592edc;
+}
+
+.fa-html5{
+    color: orangered;
+}
+
+.fa-css3-alt{
+    color: blue;
+}
+
+.fa-database{
+    color: grey;
+}
+
+.fa-linkedin{
+    color: #0d6efd;
+}
+
+.fa-github{
+    color: #000000;
+}
+
+#linkdin, #linkdin > a, #linkdin > i{
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+#github, #github > a{
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+/* Bloco Dinamico de informações */
+
+.bloco-dinamico{
+    float: right;
+    width: 80%;
+    padding: 1%;
+    border: 1px solid;
+    border-radius: 1%;
+    /* background: honeydew; */
+}
+
+.nav_indices{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.nav_indices li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 20px 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+    border-radius: 5%;
+}
+
+.nav_indices li > a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav_indices li:hover{
+    background: #abafce;
+}
+
+.bloco_iframes{
+    padding: 1%;
+}
+
+
+
+/* formação */
+
+.videos_tcc{
+    margin-top: 1px;
+    display: inline-block;
+    /* vertical-align: top; */
+}
